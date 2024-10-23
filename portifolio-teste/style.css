@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(imagens/fundo.jpg);
+    background-attachment: fixed;
+    background-size: 100vw;
+}
+
+section#nome-redes{
+    color: white;
+    font-family: "Poppins-medium" ;
+}
+
+section > div#nome{
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.466);
+    font-size: 70px;
+}
+
+section > div#dev{
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.466);
+    font-size: 20px;
+}
+
