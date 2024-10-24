@@ -58,22 +58,16 @@ section > nav > div#linkedin{
     
 }
 
-section#competencias > div.linguagens:hover{
-    
-
-}
-
 section#bio{
     position: relative;
     top: -60px;
-    
     text-align: center;
     
 }
 
 section#bio > h1#Biografia{
     position: relative;
-    top: -60px;
+    top: -10px;
     font-family: "Poppins-medium" ;
     font-size: 40px;
     text-align: center;
@@ -85,7 +79,7 @@ section#bio > h1#Biografia{
 
 section#bio > div#container{
     position: relative;
-    top: -75px;
+    top: -30px;
     text-align: center;
 }
 
@@ -102,46 +96,19 @@ section#competencias > h1#titulo-competencias{
     color: #F7FAF9;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
     position: relative;
-    top: -110px;
+    top: -60px;
 }
 
-section#competencias > div#html{
-
-}
-
-section#competencias > div#css{
+section#competencias > div#linguagens-1{
+    text-align: center;
     position: relative;
-    right: -95px;
-    top: -110px;
+    top: -90px;
 }
 
-section#competencias > div#javascript{
+section#competencias > div#linguagens-2{
+    text-align: center;
     position: relative;
-    right: -190px;
-    top: -220px;
-}
-
-section#competencias > div#react{
-    position: relative;
-    right: -285px;
-    top: -310px;
-}
-
-section#competencias > div#python{
-    position: relative;
-    top: -290px;
-}
-
-section#competencias > div#java{
-    position: relative;
-    right: -95px;
-    top: -385px;
-}
-
-section#competencias > div#mysql{
-    position: relative;
-    right: -190px;
-    top: -450px;
+    top: -80px;
 }
 
 section#projetos > h1#titulo-projetos{
