@@ -1,26 +1,157 @@
 @charset "UTF-8";
 
 body{
-    background-image: url(imagens/fundo.jpg);
-    background-attachment: fixed;
+    background-image: url(imagens/fundo-2.jpg);
     background-size: 100vw;
+    background-attachment: fixed;
+    
 }
 
 section#nome-redes{
     color: white;
     font-family: "Poppins-medium" ;
+    background-image: url(imagens/fundo-2.jpg);
+    background-attachment: fixed;
+    background-size: 100vw;
+    position: relative;
+    top: -100px;
+    
 }
 
 section > div#nome{
     text-align: center;
     margin-top: 100px;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.466);
+    text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.466);
     font-size: 70px;
+    position: relative;
+    bottom: -80px;
 }
 
 section > div#dev{
     text-align: center;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.466);
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.466);
     font-size: 20px;
+    position: relative;
+    bottom: -60px;
+}
+
+section > nav > div#github{
+    text-align: center;
+    position: relative;
+    bottom: -60px;
+}
+
+section > nav > div#instagram{
+    text-align: center;
+    margin-left: 140px;
+    position: relative;
+    top: -5px;
+    
+    
+}
+
+section > nav > div#linkedin{
+    text-align: center;
+    margin-right: 140px;
+    position: relative;
+    top: -80px;
+    
+}
+
+section#competencias > div.linguagens:hover{
+    
+
+}
+
+section#bio{
+    position: relative;
+    top: -60px;
+    
+    text-align: center;
+    
+}
+
+section#bio > h1#Biografia{
+    position: relative;
+    top: -60px;
+    font-family: "Poppins-medium" ;
+    font-size: 40px;
+    text-align: center;
+    color: #F7FAF9;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+    
+}
+
+
+section#bio > div#container{
+    position: relative;
+    top: -75px;
+    text-align: center;
+}
+
+section#bio > div#container > p#texto-bio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #E5E8E7;
+}
+
+section#competencias > h1#titulo-competencias{
+    text-align: center;
+    font-family: "Poppins-medium" ;
+    font-size: 40px;
+    color: #F7FAF9;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+    position: relative;
+    top: -110px;
+}
+
+section#competencias > div#html{
+
+}
+
+section#competencias > div#css{
+    position: relative;
+    right: -95px;
+    top: -110px;
+}
+
+section#competencias > div#javascript{
+    position: relative;
+    right: -190px;
+    top: -220px;
+}
+
+section#competencias > div#react{
+    position: relative;
+    right: -285px;
+    top: -310px;
+}
+
+section#competencias > div#python{
+    position: relative;
+    top: -290px;
+}
+
+section#competencias > div#java{
+    position: relative;
+    right: -95px;
+    top: -385px;
+}
+
+section#competencias > div#mysql{
+    position: relative;
+    right: -190px;
+    top: -450px;
+}
+
+section#projetos > h1#titulo-projetos{
+    position: relative;
+    top: -60px;
+    font-family: "Poppins-medium" ;
+    font-size: 40px;
+    text-align: center;
+    color: #F7FAF9;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+    
 }
 
