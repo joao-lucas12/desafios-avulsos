@@ -122,3 +122,32 @@ section#projetos > h1#titulo-projetos{
     
 }
 
+section#projetos > div.container-{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    right: -80px;
+}
+
+section#projetos > div.container- > img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 600);
+    transition: all ease-in-out 0.5s;
+}
+
+section#projetos > div.container- > img:hover {
+    width: 25%;
+}
+
+
+
+
+
+
